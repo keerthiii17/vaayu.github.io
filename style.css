@@ -1,0 +1,141 @@
+body {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #300101;
+    background-image: url('');
+    font-size: 125%; 
+}
+#ytr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    background: rgba(244, 0, 0, 0.85); 
+    color: white;
+    padding: 3em; 
+    border-radius: 30px;
+    width: 100%;
+    max-width: 500px; 
+    margin: 1.5em; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+    align-items: flex-start;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 120%; 
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.6em 1.2em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 110%;
+    width: calc(100% - 120px); 
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+h1.temp {
+    font-size: 4em; 
+    margin: 0;
+    margin-bottom: 0.5em;
+    color: rgb(255, 238, 1);
+}
+#ula {
+    color: aliceblue;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    font-size: 130%; 
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 12px; 
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+iframe {
+    background: rgba(244, 0, 0, 0.85); 
+    color: white;
+    padding: 3em; 
+    border-radius: 40px;
+    width: 100%;
+    max-width: 500px; 
+    margin: 1.5em; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+    display: grid;
+    align-items: center;
+}
+.drac {
+    background: rgba(244, 0, 0, 0.85); 
+    color: white;
+    padding: 3em; 
+    border-radius: 40px;
+    width: 100%;
+    max-width: 500px; 
+    margin: 1.5em; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+    display: grid;
+}
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(244, 0, 0, 0.85); 
+    color: white;
+    padding: 3em; 
+    border-radius: 40px;
+    width: 100%;
+    max-width: 500px; 
+    margin: 1.5em; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+    display: grid;
+}
+ 
+
+
+
+
+
+
+
